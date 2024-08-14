@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Backgrounds for Each Section */
+.bg-home {
+  background-image: url('/images/bg-home.jpg');
+  @apply bg-cover bg-center;
+}
+
+.bg-about {
+  background-image: url('/images/bg-about.jpg');
+  @apply bg-cover bg-center;
+}
+
+.bg-portfolio {
+  background-image: url('/images/bg-portfolio.jpg');
+  @apply bg-cover bg-center;
+}
+
+.bg-contact {
+  background-image: url('/images/bg-contact.jpg');
+  @apply bg-cover bg-center;
+}
+
+.chenso {
+    background-image: url('/images/chenso.jpg');
+    @apply bg-cover bg-center opacity-50
+    
+}
